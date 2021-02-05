@@ -19,7 +19,7 @@ const devConfig = {
                 marketing: 'marketing@http://localhost:8081/remoteEntry.js',
             },
             shared: packageJson.dependencies,
-            // shared: ['react', 'react-dom']
+            // shared: ['react', 'react-dom'],
         }),
         new HtmlWebpackPlugin({
             template: './public/index.html'
